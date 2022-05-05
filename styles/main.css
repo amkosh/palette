@@ -54,6 +54,7 @@ body {
 	border-radius: 5px;
 	flex-direction: column;
 	transition: 0.5s ease-in;
+	user-select: none;
 }
 
 #result:hover {
