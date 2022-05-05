@@ -1,58 +1,77 @@
 body {
-    background: black;
+	background: black;
+	font-family: 'Audiowide', cursive;
 }
 
 #container {
-    display: flex;
-    flex-direction: row;
-    padding: 50px 150px 0px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 60px 150px 20px 150px;
+	user-select: none;
 }
 
-#container div:hover {
-    font-size: 70pt;
-    width: 66%;
-    height: 170px;
-}
-
-div {
-    color: white;
-    text-align: center;
-    height: 200px;
-    transition: 0.5s ease-out;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50pt;
-    user-select: none;
-    font-family: 'Audiowide', cursive;
+#container div {
+	width: 33%;
+	height: 150px;
+	transition: 0.5s ease-in;
+	border-radius: 5px;
+	margin: 2px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 48pt;
 }
 
 #red {
-    width: 33%;
-    border: solid red 1px;
+	border: solid red 1px;
 }
 
 #green {
-    width: 33%;
-    border: solid green 1px;
+	border: solid green 1px;
 }
 
 #blue {
-    width: 33%;
-    border: solid blue 1px;
+	border: solid blue 1px;
+}
+
+#container div:hover {
+	width: 66%;
+	height: 110px;
+	font-size: 56pt;
 }
 
 #result {
-    margin: 40px 250px 0 250px;
-    color: transparent;
-    border: solid black 1px;
-    transition: 0.3s ease-in;
-    font-size: 20pt;
-    height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: transparent;
+	height: 100px;
+	margin: 0px 500px 0px 500px;
+	font-size: 24pt;
+	border: solid black 1px;
+	border-radius: 5px;
+	flex-direction: column;
+	transition: 0.5s ease-in;
 }
 
 #result:hover {
-    color: white;
-    border: solid white 1px;
-    font-size: 22pt;
+	color: white;
+	border: solid white 1px;
+}
+
+#hex {
+	color: white;
+	text-align: center;
+}
+
+#drawning {
+	display: flex;
+	flex-direction: row;
+}
+
+#drawning p {
+	width: 3px;
+	height: 10px;
 }
