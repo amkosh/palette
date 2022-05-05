@@ -11,6 +11,9 @@ container.addEventListener('mousedown', trigger);
 container.addEventListener('mouseup', trigger);
 result.addEventListener('click', randomColor);
 
+container.addEventListener('touchstart', trigger);
+container.addEventListener('touchend', trigger);
+
 //Состояния (нажатие, +/-, текущий блок)
 let isPress = false;
 let sign = true;
