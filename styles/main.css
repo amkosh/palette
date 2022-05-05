@@ -1,0 +1,58 @@
+body {
+    background: black;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 150px 0px;
+}
+
+#container div:hover {
+    font-size: 70pt;
+    width: 66%;
+    height: 170px;
+}
+
+div {
+    color: white;
+    text-align: center;
+    height: 200px;
+    transition: 0.5s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50pt;
+    user-select: none;
+    font-family: 'Audiowide', cursive;
+}
+
+#red {
+    width: 33%;
+    border: solid red 1px;
+}
+
+#green {
+    width: 33%;
+    border: solid green 1px;
+}
+
+#blue {
+    width: 33%;
+    border: solid blue 1px;
+}
+
+#result {
+    margin: 40px 250px 0 250px;
+    color: transparent;
+    border: solid black 1px;
+    transition: 0.3s ease-in;
+    font-size: 20pt;
+    height: 150px;
+}
+
+#result:hover {
+    color: white;
+    border: solid white 1px;
+    font-size: 22pt;
+}
