@@ -34,14 +34,12 @@ function trigger (event) {
         sign = false;
     }
     iteration = 1;
-    console.log(event.target);
 }
 
 function triggerTouch (event) {
     current = event.target;
     isPress = !isPress;
     iteration = 1;
-    console.log(event.target);
 }
 
 //Интервальное обновление
